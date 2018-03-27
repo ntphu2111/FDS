@@ -1,0 +1,135 @@
+bvbd@Precision:~$ mosquitto_pub -h test.mosquitto.org -t test -m "hello wvsdsd"
+bvbd@Precision:~$ mosquitto_sub -h 10.4.1.210 -t /SCPCloud/DEVICE/AD54B847
+{"formatType":"1","other":"$BLE04;AD54B847;171130151736;1;SS000DE0A14A010,-59,99,2,432;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130151744;1;SS000DE0A10D190,-59,99,2,59;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130151904;1;SS000DE0A13B070,-59,99,2,5276;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130151904;1;SS00117D8D7E060,-59,99,2,2936;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130151904;1;SS000DE0A13B060,-59,99,2,2897;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130151906;1;SS000DE0A14A010,-59,99,2,431;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130151924;1;SS00117D8D7E070,-59,99,2,6444;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152004;1;SS000DE0A10D190,-59,99,2,55;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152036;1;SS000DE0A14A010,-59,99,2,431;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152206;1;SS000DE0A14A010,-59,99,2,425;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152224;1;SS000DE0A13B070,-59,99,2,5395;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152224;1;SS00117D8D7E060,-59,99,2,2844;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152224;1;SS000DE0A13B060,-59,99,2,2919;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152224;1;SS000DE0A10D190,-59,99,2,55;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152244;1;SS00117D8D7E070,-59,99,2,6369;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152336;1;SS000DE0A14A010,-59,99,2,433;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152444;1;SS000DE0A10D190,-59,99,2,56;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152506;1;SS000DE0A14A010,-59,99,2,431;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152544;1;SS000DE0A13B070,-59,99,2,5251;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152544;1;SS00117D8D7E060,-59,99,2,2924;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152544;1;SS000DE0A13B060,-59,99,2,2860;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152604;1;SS00117D8D7E070,-59,99,2,6459;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152636;1;SS000DE0A14A010,-59,99,2,426;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152704;1;SS000DE0A10D190,-59,99,2,54;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152806;1;SS000DE0A14A010,-59,99,2,428;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152904;1;SS000DE0A13B070,-59,99,2,5258;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152904;1;SS00117D8D7E060,-59,99,2,2934;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152904;1;SS000DE0A13B060,-59,99,2,2930;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152924;1;SS00117D8D7E070,-59,99,2,6511;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152924;1;SS000DE0A10D190,-59,99,2,59;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130152936;1;SS000DE0A14A010,-59,99,2,427;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153106;1;SS000DE0A14A010,-59,99,2,429;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153144;1;SS000DE0A10D190,-59,99,2,55;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153224;1;SS000DE0A13B070,-59,99,2,5428;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153224;1;SS00117D8D7E060,-59,99,2,2884;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153224;1;SS000DE0A13B060,-59,99,2,2790;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153236;1;SS000DE0A14A010,-59,99,2,430;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153244;1;SS00117D8D7E070,-59,99,2,6413;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153404;1;SS000DE0A10D190,-59,99,2,56;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153406;1;SS000DE0A14A010,-59,99,2,429;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153536;1;SS000DE0A14A010,-59,99,2,426;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153544;1;SS000DE0A13B070,-59,99,2,5289;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153544;1;SS00117D8D7E060,-59,99,2,2985;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153544;1;SS000DE0A13B060,-59,99,2,2926;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153604;1;SS00117D8D7E070,-59,99,2,6409;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153624;1;SS000DE0A10D190,-59,99,2,52;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153706;1;SS000DE0A14A010,-59,99,2,428;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153836;1;SS000DE0A14A010,-59,99,2,430;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153844;1;SS000DE0A10D190,-59,99,2,55;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153904;1;SS000DE0A13B070,-59,99,2,5283;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153904;1;SS00117D8D7E060,-59,99,2,2956;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153904;1;SS000DE0A13B060,-59,99,2,2856;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130153924;1;SS00117D8D7E070,-59,99,2,6492;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154006;1;SS000DE0A14A010,-59,99,2,425;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154104;1;SS000DE0A10D190,-59,99,2,59;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154136;1;SS000DE0A14A010,-59,99,2,430;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154224;1;SS000DE0A13B070,-59,99,2,5305;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154224;1;SS00117D8D7E060,-59,99,2,2989;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154224;1;SS000DE0A13B060,-59,99,2,2907;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154244;1;SS00117D8D7E070,-59,99,2,6476;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154306;1;SS000DE0A14A010,-59,99,2,428;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154324;1;SS000DE0A10D190,-59,99,2,53;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154436;1;SS000DE0A14A010,-59,99,2,427;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154544;1;SS000DE0A13B070,-59,99,2,5303;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154544;1;SS00117D8D7E060,-59,99,2,2847;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154544;1;SS000DE0A13B060,-59,99,2,2928;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154544;1;SS000DE0A10D190,-59,99,2,60;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154604;1;SS00117D8D7E070,-59,99,2,6422;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154606;1;SS000DE0A14A010,-59,99,2,429;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154736;1;SS000DE0A14A010,-59,99,2,433;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130154804;1;SS000DE0A10D190,-59,99,2,53;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155544;1;SS000DE0A13B070,-59,99,2,5328;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155544;1;SS00117D8D7E060,-59,99,2,2985;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155544;1;SS000DE0A13B060,-59,99,2,2845;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155604;1;SS00117D8D7E070,-59,99,2,6472;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155636;1;SS000DE0A14A010,-59,99,2,425;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155724;1;SS000DE0A10D190,-59,99,2,60;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155806;1;SS000DE0A14A010,-59,99,2,432;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155904;1;SS000DE0A13B070,-59,99,2,5289;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155904;1;SS00117D8D7E060,-59,99,2,2902;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155904;1;SS000DE0A13B060,-59,99,2,2826;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155924;1;SS00117D8D7E070,-59,99,2,6433;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155936;1;SS000DE0A14A010,-59,99,2,433;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130155944;1;SS000DE0A10D190,-59,99,2,60;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130160106;1;SS000DE0A14A010,-59,99,2,430;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130160204;1;SS000DE0A10D190,-59,99,2,53;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130160224;1;SS000DE0A13B070,-59,99,2,5308;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130160224;1;SS00117D8D7E060,-59,99,2,2882;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130160224;1;SS000DE0A13B060,-59,99,2,2895;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130160236;1;SS000DE0A14A010,-59,99,2,428;200#"}
+{"formatType":"1","other":"$BLE04;AD54B847;171130160244;1;SS00117D8D7E070,-59,99,2,6471;200#"}
+
+PUB:
+mosquitto_pub -h 10.4.1.210 -t /SCPCloud/DEVICE/AD54B847 -m "{\"formatType\":\"1\",\"other\":\"\$BLE04;AD54B847;171130160706;1;SS000DE0A10D190,-59,99,2,70;200#\"}"
+
+SUB:
+mosquitto_sub -h 10.4.1.210 -t /SCPCloud/DEVICE/AD54B847
+
+SUB_BELL:
+mosquitto_sub -h 10.4.1.210 -t /SCPCloud/DEVICE/FD445E29
+
+//=================================================================================================================================================================
+log bell GW:
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225145347","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225145347;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225145350","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225145350;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225145420","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225145420;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225145520","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225145520;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225145620","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225145620;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225145720","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225145720;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225145820","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225145820;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225145920","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225145920;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225150020","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225150020;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+{"fwversion":"1.1","hwversion":"1.1","battery":"100","formatType":"1","timestamp":"171225150121","deviceid":"FD445E29","childDeviceid":"VNPT_Bell_Sensor-4B000DE0A10D","other":"$BLE04;FD445E29;171225150121;1;SS000DE0A10D200,-59,99,2,1;200#"}
+{"devicelabel":"Edge Gateway","manufacturer":"ANSV","model":"BTS Monitor","ipv4addr":"127.0.1.1","swversion":"1.1","fwversion":"1.1","hwversion":"1.0","battery":100,"command":"","other":"","clientId":"FD445E29"}
+//==================================================================================================================================================================
+
+

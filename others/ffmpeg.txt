@@ -1,0 +1,3 @@
+file '/home/bvbd/vid/rec1/video06.mp4'
+file '/home/bvbd/vid/rec1/video07.mp4'
+file '/home/bvbd/vid/rec1/video00.mp4'

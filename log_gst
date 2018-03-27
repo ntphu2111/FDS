@@ -1,0 +1,33 @@
+gst-launch-1.0 -e rtspsrc location=rtsp://admin:123456@10.4.1.233/profile1 ! decodebin ! x264enc ! splitmuxsink location=video%02d.mp4 max-size-time=10000000000 max-size-bytes=50000000
+gst-launch-1.0 -e rtspsrc location=rtsp://admin:123456@10.4.1.233/profile1 ! decodebin ! x264enc ! splitmuxsink location="video%02d.mp4" max-size-time=10000000000 max-files=12
+ffmpeg -f concat -i ffmpeg.txt -c copy test.mp4
+ps -C gst-launch-1.0
+ls -Art | tail -n5
+ls -t /home/bvbd/vid/rec1/ | xargs sh ~/join.sh
+
+//=========================================================================================================================
+												SYSTEM DESCRIPTION
+//=========================================================================================================================
+On Start: 
+	run ~/record.sh
+	run Main Program: ~/FDS/fds
+
+~/join.sh: for joining videos every risen event
+mosquitto.h => store server config
+System info:
+#define BUFSIZE 201
+#define SERVER "10.4.1.210"	//
+#define PORT 1883
+#define GWTOPIC "/SCPCloud/DEVICE/AD54B847"		//Where to collect sensor data
+#define ALARMTOPIC "/SCPCloud/DEVICE/509a4c5912d3"	//Where to push warning to server
+#define SENSORID "SS000DE0A10D190"				// ID of sound sensor
+//#define URL "rtsp://admin:123456@10.4.1.233/profile1"
+//#define URL "rtsp://10.4.1.231/axis-media/media.amp"
+//#define URL "uridecodebin uri=rtsp://10.4.1.231/axis-media/media.amp ! videoconvert ! videoscale ! appsink"
+//#define URL "rtspsrc location=\"rtsp://admin:123456@10.4.1.233/profile1\" latency=0 ! decodebin ! videorate ! video/x-raw,framerate=15/1 ! videoconvert ! appsink" 
+#define URL "rtspsrc location=\"rtsp://admin:123456@10.4.1.233/profile1\" latency=0 ! decodebin ! videoconvert ! appsink"
+#define PUB_MESSAGE "{\"urlCam\":\"http://ansvhcm.vn:10090/video2.mjpg?user=&fps=15\"}"
+#define POS_X 0
+#define POS_Y 0
+#define WIDTH 1200
+#define HEIGHT 700
